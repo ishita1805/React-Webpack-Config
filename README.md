@@ -3,12 +3,14 @@
 
 ### Understanding dependancies
 **1. Babel (.babelrc)**
+<br/>
 Babel helps us convert ES5+ JS/JSX code into browser compatible code. we use `.babelrc` to configure babel
 - @babel/core (Needed for managing all babel dependancies)
 - @babel/preset-env (Provides support for ES5, ES6)
 - @babel/preset-react (Provide compatibility to react's env)
 
 **2. Webpack (webpack.config.js)**
+<br/>
 Webpack is a static module bundler for modern JavaScript applications.It transforms complex dependancy structures into simple static assets. we create a `webpack.config.js` file to configure webpack.
 - webpack (core library)
 - webpack-cli (to manage and use certain webpack commands via cli)
